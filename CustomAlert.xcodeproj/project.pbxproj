@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D65A44FB2BDE3993005514C8 /* Bundle+Pods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A44FA2BDE3993005514C8 /* Bundle+Pods.swift */; };
 		D68385882BDBF61800CEA0A0 /* CustomAlertConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683856B2BDBF61800CEA0A0 /* CustomAlertConfiguration.swift */; };
 		D68385892BDBF61800CEA0A0 /* CustomAlertConfiguration.Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683856C2BDBF61800CEA0A0 /* CustomAlertConfiguration.Alert.swift */; };
 		D683858A2BDBF61800CEA0A0 /* CustomAlertBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683856D2BDBF61800CEA0A0 /* CustomAlertBackground.swift */; };
@@ -46,6 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D65A44FA2BDE3993005514C8 /* Bundle+Pods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Pods.swift"; sourceTree = "<group>"; };
+		D65A44FC2BDE399C005514C8 /* Bundle+SPM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+SPM.swift"; sourceTree = "<group>"; };
 		D683855F2BDBF5DB00CEA0A0 /* libCustomAlert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCustomAlert.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D683856B2BDBF61800CEA0A0 /* CustomAlertConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertConfiguration.swift; sourceTree = "<group>"; };
 		D683856C2BDBF61800CEA0A0 /* CustomAlertConfiguration.Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertConfiguration.Alert.swift; sourceTree = "<group>"; };
@@ -85,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D65A44F92BDE396C005514C8 /* BundleDisambiguator */ = {
+			isa = PBXGroup;
+			children = (
+				D65A44FA2BDE3993005514C8 /* Bundle+Pods.swift */,
+				D65A44FC2BDE399C005514C8 /* Bundle+SPM.swift */,
+			);
+			path = BundleDisambiguator;
+			sourceTree = "<group>";
+		};
 		D68385562BDBF5DB00CEA0A0 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 		D68385692BDBF61800CEA0A0 /* CustomAlert */ = {
 			isa = PBXGroup;
 			children = (
+				D65A44F92BDE396C005514C8 /* BundleDisambiguator */,
 				D683856A2BDBF61800CEA0A0 /* Configuration */,
 				D683856F2BDBF61800CEA0A0 /* CustomAlertHandler.swift */,
 				D68385702BDBF61800CEA0A0 /* AlertButtonStyle.swift */,
@@ -255,6 +268,7 @@
 				D68385902BDBF61800CEA0A0 /* ColorExtensions.swift in Sources */,
 				D68385882BDBF61800CEA0A0 /* CustomAlertConfiguration.swift in Sources */,
 				D683858C2BDBF61800CEA0A0 /* CustomAlertHandler.swift in Sources */,
+				D65A44FB2BDE3993005514C8 /* Bundle+Pods.swift in Sources */,
 				D683858E2BDBF61800CEA0A0 /* API+Identifiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

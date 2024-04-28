@@ -88,7 +88,7 @@ public struct AlertButtonStyle: ButtonStyle {
                 return Color(color)
             }
         } else {
-            return Color("Disabled", bundle: .module)
+            return Color("Disabled", bundle: .disambiguatedBundle)
         }
     }
     

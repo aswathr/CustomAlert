@@ -97,7 +97,7 @@ If the content is too large because the text is too long or the text doesn't fit
   #
 
   spec.source_files  = "Sources/**/*.{swift}"
-  # spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "Sources/CustomAlert/BundleDisambiguator/Bundle+SPM.swift"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -112,6 +112,8 @@ If the content is too large because the text is too long or the text doesn't fit
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
+  spec.resource_bundles = {
+    'CustomAlert' => ['Sources/**/*.{xib,storyboard,xcassets}'] }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
