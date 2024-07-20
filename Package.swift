@@ -18,6 +18,7 @@ let package = Package(
         .package(url: "https://github.com/divadretlaw/WindowKit", from: "2.2.0")
     ],
     targets: [
-        .target(name: "CustomAlert", dependencies: ["WindowKit"])
+        .target(name: "CustomAlert", dependencies: ["WindowKit"],
+                exclude: ["BundleDisambiguator/Bundle+Pods.swift"])
     ]
 )
