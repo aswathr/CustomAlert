@@ -72,7 +72,7 @@ If the content is too large because the text is too long or the text doesn't fit
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "14.0"
+  spec.ios.deployment_target = "15.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
