@@ -16,7 +16,7 @@ extension CustomAlertConfiguration {
             CustomAlertConfiguration(
                 alert: .liquidGlass,
                 button: .liquidGlass,
-                background: .color(Color("DimmingBackround", bundle: .module)),
+                background: .color(Color("DimmingBackround", bundle: .disambiguatedModule)),
                 padding: EdgeInsets(top: 11, leading: 20, bottom: 11, trailing: 20),
                 transition: .opacity.combined(with: .scale(scale: 1.1)),
                 animateTransition: true,
@@ -97,7 +97,7 @@ extension CustomAlertConfiguration.Button {
                 font: .body.weight(.medium),
                 roleFont: [:],
                 hideDivider: true,
-                background: .color(Color("Background", bundle: .module)),
+                background: .color(Color("Background", bundle: .disambiguatedModule)),
                 pressedBackground: .color(.liquidGlassBackgroundColor),
                 roleBackground: [:],
                 spacing: 8,

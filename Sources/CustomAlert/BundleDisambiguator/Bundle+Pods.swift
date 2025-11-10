@@ -8,7 +8,7 @@
 import Foundation
 
 public extension Bundle {
-    static var disambiguatedBundle: Bundle {
+    static var disambiguatedModule: Bundle {
         guard let bundleURL = Bundle.main.url(forResource: "CustomAlert", withExtension: "bundle") else {
             fatalError("CustomAlert.bundle not found!")
         }

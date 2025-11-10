@@ -8,7 +8,7 @@
 import Foundation
 
 extension Bundle {
-    static var disambiguatedBundle: Bundle {
+    static var disambiguatedModule: Bundle {
         Bundle.module
     }
 }

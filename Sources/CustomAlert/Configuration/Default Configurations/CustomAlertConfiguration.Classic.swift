@@ -15,7 +15,7 @@ extension CustomAlertConfiguration {
             CustomAlertConfiguration(
                 alert: .classic,
                 button: .classic,
-                background: .color(Color("DimmingBackround", bundle: .module)),
+                background: .color(Color("DimmingBackround", bundle: .disambiguatedModule)),
                 padding: EdgeInsets(top: 11, leading: 30, bottom: 11, trailing: 30),
                 transition: .opacity.combined(with: .scale(scale: 1.1)),
                 animateTransition: true,
